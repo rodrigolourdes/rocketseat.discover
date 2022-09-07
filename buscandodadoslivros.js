@@ -63,5 +63,21 @@ function countAuthors() {
             }
         }
     }
-    
+    console.log("Total de de autores: ", authors.length)
 }
+
+countAuthors();
+
+function booksOfAuthor(author) {
+    let books = [];
+
+    for(let category of booksByCategory) {
+        for(let book of category.books) {
+            if (book.author === author){
+            books.push(book.title)}
+        }
+    }
+    console.log(`Livros do autor ${author}: ${books.join(", ")}`)
+}
+
+booksOfAuthor('Stephen R. Covey');
