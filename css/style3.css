@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62.5%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.menu a:hover {
+    border-radius: 7%;
+    color: rgb(0, 0, 0);
+    background: rgb(10, 209, 20);
+
+}
+
+.button--menu {
+    background: rgb(10, 209, 20);
+    margin-left: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.button--menu:hover {
+    cursor: pointer;
+    background: greenyellow;
+}
