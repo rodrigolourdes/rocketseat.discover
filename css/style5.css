@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+footer {
+    margin-top: auto;
+    background: #ccc;
+    color: rgb(88, 88, 88);
+    font-weight: bolder;
+    font-size: 2rem;
+    height: 8rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
